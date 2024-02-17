@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", // aqui  é a versão do js que vai compilar
+        "outDir": "./dist/js/",//aqui é um diretôrio de output
+        "noEmitOnError": true // aqui evita gerar arquivos de erro, apenas mostrar os erros no terminal 
+    },
+    "include": [
+        "./src/**/*" // aqui busca todos arquivos do typescript para compilar ele 
+    ]
+}
+
+
+// para fazer com que o typescript compile automaticamente, basta executar o comando:
+// tsc --watch ou tsc -w
